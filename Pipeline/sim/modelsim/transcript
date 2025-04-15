@@ -1,0 +1,842 @@
+# Compile of ALU.vhd was successful.
+# Compile of ControlPath.vhd was successful.
+# Compile of DataPath.vhd was successful.
+# Compile of ForwardingUnit.vhd was successful.
+# Compile of Memory.vhd was successful with warnings.
+# Compile of MIPS_monocycle.vhd was successful.
+# Compile of MIPS_monocycle_tb.vhd was successful.
+# Compile of MIPS_package.vhd was successful.
+# Compile of Register1bit.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of RegisterNbits.vhd was successful.
+# Compile of Util_package.vhd was successful.
+# Compile of HazardDetectionUnit.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.mips_monocycle_tb
+# vsim -gui work.mips_monocycle_tb 
+# Start time: 08:43:20 on Aug 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_package
+# Loading work.util_package(body)
+# Loading work.mips_monocycle_tb(structural)
+# Loading work.mips_monocycle(structural)
+# Loading work.controlpath(behavioral)
+# Loading work.datapath(structural)
+# Loading work.registernbits(behavioral)
+# Loading work.register1bit(behavioral)
+# Loading work.forwardingunit(behavioral)
+# Loading work.hazarddetectionunit(behavioral)
+# Loading work.registerfile(structural)
+# Loading work.alu(behavioral)
+# Loading work.memory(behavioral)
+do C:/Users/Eduardo-PC/Desktop/mipspipe/mipspipe.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: arthu  Hostname: PORTELLA-PC  ProcessID: 10952
+#           Attempting to use alternate WLF file "./wlftbhzqi0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbhzqi0
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /mips_monocycle_tb/DATA_MEMORY
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /mips_monocycle_tb/INSTRUCTION_MEMORY
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(31)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(30)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(29)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(28)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(27)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(26)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(25)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(24)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(23)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(22)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(21)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(20)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(19)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(18)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(17)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(16)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(15)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(14)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(13)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(12)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(11)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(10)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(9)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(8)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(7)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(6)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(5)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(4)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(3)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(2)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Region: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE/Registers(1)
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /mips_monocycle_tb/DATA_MEMORY
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /mips_monocycle_tb/INSTRUCTION_MEMORY
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ALU
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/MEM_WB_WREGISTER
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/DATA_MEMORY
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/INSTRUCTION_MEMORY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/REGISTER_FILE
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 3  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 3  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 3  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 5 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/MEM_WB_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 355 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 360 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 405 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 405 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 405 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 410 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 410 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 410 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 455 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 455 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 455 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 460 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 460 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 460 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 555 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 555 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 555 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 560 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 560 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 560 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 635 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 640 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 685 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 685 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 685 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 690 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 690 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 690 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 735 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 735 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 735 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 740 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 740 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 740 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 835 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 835 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 835 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 840 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 840 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 840 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 915 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 920 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 965 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 965 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 965 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 970 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 970 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 970 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1015 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1015 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1015 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1020 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1020 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1020 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1225 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1230 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1275 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1280 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1375 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1375 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1375 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1380 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1380 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1380 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1475 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1475 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1475 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1480 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1480 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1480 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1575 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1575 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1575 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1580 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1580 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1580 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1655 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1660 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1705 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1705 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1705 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1710 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1710 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1710 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1755 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1755 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1755 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1760 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1760 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1760 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1855 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1855 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1855 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1860 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1860 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1860 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1865 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 1870 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2040 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2040 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2040 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2135 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2135 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2135 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2140 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2140 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2140 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2235 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2235 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2235 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2240 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2240 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2240 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2315 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2320 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2365 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2365 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2365 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2370 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2370 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2370 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2415 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2415 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2415 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2420 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2420 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2420 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2515 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2515 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2515 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2520 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2520 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2520 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2615 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2615 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2615 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2620 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2620 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2620 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2625 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2630 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2795 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2795 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2795 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2800 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2800 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2800 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2895 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2895 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2895 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2900 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2900 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2900 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 1  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2975 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/ID_EX_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 2980 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/EX_MEM_WREGISTER
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3025 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3030 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3075 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3075 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3075 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3080 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3080 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3080 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3175 ns  Iteration: 2  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RS
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 3180 ns  Iteration: 0  Instance: /mips_monocycle_tb/MIPS_MONOCYCLE/DATA_PATH/IF_ID_RD

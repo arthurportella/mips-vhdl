@@ -1,0 +1,588 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Eduardo-PC/Downloads/MIPS_Monocycle
+Ealu
+Z0 w1723432740
+Z1 DPx4 work 12 mips_package 0 22 B:]Gf`DP1D8Y?Fgb;Di`53
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 393
+Z5 dC:/Users/Eduardo-PC/Desktop/mipspipe
+Z6 8C:/Users/Eduardo-PC/Desktop/mipspipe/ALU.vhd
+Z7 FC:/Users/Eduardo-PC/Desktop/mipspipe/ALU.vhd
+l0
+Z8 L11 1
+VAl5=2H_]SC=V^m;0L6REF0
+!s100 ^eTRFa9I<Sicl4OA5MF5@0
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1723462991
+!i10b 1
+Z11 !s108 1723462991.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/ALU.vhd|
+Z13 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/ALU.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+Z16 DEx4 work 3 alu 0 22 Al5=2H_]SC=V^m;0L6REF0
+!i122 393
+l25
+L21 23
+VfI<F]VW?LnFI8FMQ02N_N3
+!s100 D5F`iQM^^L]TU5F7NMOhg1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Econtrolpath
+Z17 w1723439984
+R1
+R3
+R4
+!i122 394
+R5
+Z18 8C:/Users/Eduardo-PC/Desktop/mipspipe/ControlPath.vhd
+Z19 FC:/Users/Eduardo-PC/Desktop/mipspipe/ControlPath.vhd
+l0
+R8
+VS<Kn4U@WEh:DbiW<CjMnX2
+!s100 jk[zaW03RDdhSVWM1G^0O3
+R9
+32
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/ControlPath.vhd|
+Z21 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/ControlPath.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R1
+R3
+R4
+Z22 DEx4 work 11 controlpath 0 22 S<Kn4U@WEh:DbiW<CjMnX2
+!i122 394
+l31
+L20 56
+V@VfkZi94RTG=e3dg=><M61
+!s100 =Pk^?NF8W9@PV>=Il@I@L3
+R9
+32
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Edatapath
+Z23 w1723442975
+R1
+R2
+R3
+R4
+!i122 395
+R5
+Z24 8C:/Users/Eduardo-PC/Desktop/mipspipe/DataPath.vhd
+Z25 FC:/Users/Eduardo-PC/Desktop/mipspipe/DataPath.vhd
+l0
+L6 1
+V`h;kSGUAaenWXcUb[k7Q70
+!s100 bkBU1o3FP;Oe8?S0H3Bh@0
+R9
+32
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/DataPath.vhd|
+Z27 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/DataPath.vhd|
+!i113 1
+R14
+R15
+Astructural
+R16
+Z28 DEx4 work 12 registerfile 0 22 iDOhlCQ3OHIiiNODPjhln1
+Z29 DEx4 work 19 hazarddetectionunit 0 22 le<T7fmJzQgz@6Jj;QRPR0
+Z30 DEx4 work 14 forwardingunit 0 22 <D_d21bgZWPZjk@heW<4K2
+Z31 DEx4 work 12 register1bit 0 22 lZ@C1JYOe]:3IgHHd<aQG2
+Z32 DEx4 work 13 registernbits 0 22 0aTMQ:gOLZSZA1Y02LI=`1
+R1
+R2
+R3
+R4
+Z33 DEx4 work 8 datapath 0 22 `h;kSGUAaenWXcUb[k7Q70
+!i122 395
+l54
+L26 641
+Vf?fnOeI=P0WiCmMVi=C?L3
+!s100 6f`2US8cSf;j43dlRlDD>3
+R9
+32
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Eforwardingunit
+Z34 w1723441963
+R3
+R4
+!i122 396
+R5
+Z35 8C:/Users/Eduardo-PC/Desktop/mipspipe/ForwardingUnit.vhd
+Z36 FC:/Users/Eduardo-PC/Desktop/mipspipe/ForwardingUnit.vhd
+l0
+L4 1
+V<D_d21bgZWPZjk@heW<4K2
+!s100 <CkgF8[Fk2E@JC3B<88O63
+R9
+32
+Z37 !s110 1723462992
+!i10b 1
+R11
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/ForwardingUnit.vhd|
+Z39 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/ForwardingUnit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R30
+!i122 396
+l20
+L19 25
+VR<TLXYlRX6m>O6Q4]LdOF1
+!s100 `DnR;XXN80=W`H2fM>GID0
+R9
+32
+R37
+!i10b 1
+R11
+R38
+R39
+!i113 1
+R14
+R15
+Ehazarddetectionunit
+R0
+R1
+R3
+R4
+!i122 405
+R5
+Z40 8C:/Users/Eduardo-PC/Desktop/mipspipe/HazardDetectionUnit.vhd
+Z41 FC:/Users/Eduardo-PC/Desktop/mipspipe/HazardDetectionUnit.vhd
+l0
+L10 1
+Vle<T7fmJzQgz@6Jj;QRPR0
+!s100 jW2Xlde@VNK<PCzkUJOH`1
+R9
+32
+Z42 !s110 1723462993
+!i10b 1
+Z43 !s108 1723462993.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/HazardDetectionUnit.vhd|
+Z45 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/HazardDetectionUnit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R1
+R3
+R4
+R29
+!i122 405
+l21
+Z46 L20 11
+Z47 VSfFW3:3H=<GFgFMLWoCZf2
+Z48 !s100 kZHIUCYN5jIT_9EYZ?`@22
+R9
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R14
+R15
+Ememory
+R0
+Z49 DPx4 work 12 util_package 0 22 1J4FN80``_Z]GFD7;<9@?2
+R2
+R3
+R4
+!i122 397
+R5
+Z50 8C:/Users/Eduardo-PC/Desktop/mipspipe/Memory.vhd
+Z51 FC:/Users/Eduardo-PC/Desktop/mipspipe/Memory.vhd
+l0
+L13 1
+VU^]Eh[jVJG7NVULSL`=7?3
+!s100 `GCmadKL:40CnjiiLAa^;3
+R9
+32
+R37
+!i10b 1
+Z52 !s108 1723462992.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/Memory.vhd|
+Z54 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/Memory.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R49
+R2
+R3
+R4
+Z55 DEx4 work 6 memory 0 22 U^]Eh[jVJG7NVULSL`=7?3
+!i122 397
+l121
+L29 129
+VAokSMEC_]ckTzleG9?_Um3
+!s100 PnX0=6?6h0Zj1fQc<Tmbc2
+R9
+32
+R37
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R14
+R15
+Emips_monocycle
+R0
+R1
+R2
+R3
+R4
+!i122 398
+R5
+Z56 8C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle.vhd
+Z57 FC:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle.vhd
+l0
+R8
+VY@=VD?I`5EXUeETaDLfgD2
+!s100 G:;]EhiCDg:;Boh`iQg:H0
+R9
+32
+R37
+!i10b 1
+R52
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle.vhd|
+Z59 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle.vhd|
+!i113 1
+R14
+R15
+Astructural
+R33
+R22
+R1
+R2
+R3
+R4
+Z60 DEx4 work 14 mips_monocycle 0 22 Y@=VD?I`5EXUeETaDLfgD2
+!i122 398
+l38
+L30 46
+VdX;^GeB7HkHV3JQJ6SoiN2
+!s100 ]ED_j4G2gZVCKdeRB84z40
+R9
+32
+R37
+!i10b 1
+R52
+R58
+R59
+!i113 1
+R14
+R15
+Emips_monocycle_tb
+R0
+R1
+R2
+R3
+R4
+!i122 399
+R5
+Z61 8C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle_tb.vhd
+Z62 FC:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle_tb.vhd
+l0
+Z63 L12 1
+VI22Xc72hSZn[EIidc?g=W1
+!s100 :6kNPf9ggEBTFUNZ4E;df1
+R9
+32
+R37
+!i10b 1
+R52
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle_tb.vhd|
+Z65 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_monocycle_tb.vhd|
+!i113 1
+R14
+R15
+Astructural
+R49
+R55
+R60
+R1
+R2
+R3
+R4
+DEx4 work 17 mips_monocycle_tb 0 22 I22Xc72hSZn[EIidc?g=W1
+!i122 399
+l27
+L16 69
+VlUjZ8Xg1^6?Tfz<E9OQjN2
+!s100 SRoI5U4KJ?ilA_1F`C@^:2
+R9
+32
+R37
+!i10b 1
+R52
+R64
+R65
+!i113 1
+R14
+R15
+Pmips_package
+R3
+R4
+!i122 400
+R0
+R5
+8C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_package.vhd
+FC:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_package.vhd
+l0
+L9 1
+VB:]Gf`DP1D8Y?Fgb;Di`53
+!s100 Mf:]iA5MJCceD^6Lh?9z`1
+R9
+32
+R37
+!i10b 1
+R52
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_package.vhd|
+!s107 C:/Users/Eduardo-PC/Desktop/mipspipe/MIPS_package.vhd|
+!i113 1
+R14
+R15
+Eregister1bit
+R0
+R2
+R3
+R4
+!i122 401
+R5
+Z66 8C:/Users/Eduardo-PC/Desktop/mipspipe/Register1bit.vhd
+Z67 FC:/Users/Eduardo-PC/Desktop/mipspipe/Register1bit.vhd
+l0
+R8
+VlZ@C1JYOe]:3IgHHd<aQG2
+!s100 SE9KDPibE8`KcB6JJG?UT2
+R9
+32
+R42
+!i10b 1
+R52
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/Register1bit.vhd|
+Z69 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/Register1bit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R31
+!i122 401
+l24
+L23 16
+V>OSHQd[of0DZkE^KV7ZF10
+!s100 h_YKUnUG47ec6]?:lelJz3
+R9
+32
+R42
+!i10b 1
+R52
+R68
+R69
+!i113 1
+R14
+R15
+Eregisterfile
+R0
+R2
+R3
+R4
+!i122 402
+R5
+Z70 8C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterFile.vhd
+Z71 FC:/Users/Eduardo-PC/Desktop/mipspipe/RegisterFile.vhd
+l0
+R63
+ViDOhlCQ3OHIiiNODPjhln1
+!s100 Ahg4AVOZ6W;Yh?U?fF5Ph3
+R9
+32
+R42
+!i10b 1
+R43
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterFile.vhd|
+Z73 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterFile.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R28
+!i122 402
+l71
+L65 36
+VdfVGIF9FQC99NfH_QJcaz0
+!s100 PIV:`[ddAGfzMIoF>2PJ`1
+R9
+32
+R42
+!i10b 1
+R43
+R72
+R73
+!i113 1
+R14
+R15
+Astructural
+R32
+R2
+R3
+R4
+R28
+!i122 402
+l32
+L26 36
+VNR>VfL41B38kFeCAYODe43
+!s100 CEo2m4lI@aZ3@f`<S4gB;3
+R9
+32
+R42
+!i10b 1
+R43
+R72
+R73
+!i113 1
+R14
+R15
+Eregisternbits
+R0
+R2
+R3
+R4
+!i122 403
+R5
+Z74 8C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterNbits.vhd
+Z75 FC:/Users/Eduardo-PC/Desktop/mipspipe/RegisterNbits.vhd
+l0
+R8
+V0aTMQ:gOLZSZA1Y02LI=`1
+!s100 NRQMEdZ8WTdUfi<]DYGn^3
+R9
+32
+R42
+!i10b 1
+R43
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterNbits.vhd|
+Z77 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/RegisterNbits.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R32
+!i122 403
+l27
+L26 16
+Vg5I2jZ=WcJHM0bcF:bkO]0
+!s100 H_bA0EnZGdTaEe_`YljUB1
+R9
+32
+R42
+!i10b 1
+R43
+R76
+R77
+!i113 1
+R14
+R15
+Putil_package
+R3
+R4
+!i122 404
+R0
+R5
+Z78 8C:/Users/Eduardo-PC/Desktop/mipspipe/Util_package.vhd
+Z79 FC:/Users/Eduardo-PC/Desktop/mipspipe/Util_package.vhd
+l0
+L9 1
+V1J4FN80``_Z]GFD7;<9@?2
+!s100 OSdg1mERAhRCb_f^9[Y?i2
+R9
+32
+b1
+R42
+!i10b 1
+R43
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Eduardo-PC/Desktop/mipspipe/Util_package.vhd|
+Z81 !s107 C:/Users/Eduardo-PC/Desktop/mipspipe/Util_package.vhd|
+!i113 1
+R14
+R15
+Bbody
+R49
+R3
+R4
+!i122 404
+l0
+L22 1
+VPcHZGGQSg]ScSb3@==9f:1
+!s100 0W3X[4TW1iDH_HN<LzY=g2
+R9
+32
+R42
+!i10b 1
+R43
+R80
+R81
+!i113 1
+R14
+R15

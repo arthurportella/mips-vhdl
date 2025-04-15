@@ -1,0 +1,21 @@
+# Exemplo de programa MIPS sem dependência de dados
+.text
+main:
+    addi $t0, $zero, 10     # $t0 = 10
+    addi $t1, $zero, 20     # $t1 = 20
+    add $t2, $t0, $t1       # $t2 = $t0 + $t1
+    addi $t3, $zero, 30     # $t3 = 30
+    addi $t4, $zero, 40     # $t4 = 40
+    add $t5, $t3, $t4       # $t5 = $t3 + $t4
+    add $s0, $t2, $t5       # $s0 = $t2 + $t5
+    add $s1, $t2, $t5       # $s1 = $t2 + $t5
+    add $s2, $t2, $t5       # $s2 = $t2 + $t5
+    add $s3, $t2, $t5       # $s3 = $t2 + $t5
+    add $s4, $t2, $t5       # $s4 = $t2 + $t5
+    add $s5, $t2, $t5       # $s5 = $t2 + $t5
+    add $s6, $t2, $t5       # $s6 = $t2 + $t5
+    add $s7, $t2, $t5       # $s7 = $t2 + $t5
+    add $t6, $t2, $t5       # $t6 = $t2 + $t5
+    add $t7, $t2, $t5       # $t7 = $t2 + $t5
+    add $t8, $t2, $t5       # $t8 = $t2 + $t5
+    add $t9, $t2, $t5       # $t9 = $t2 + $t5

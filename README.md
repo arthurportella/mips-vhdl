@@ -31,10 +31,9 @@ MIPS-VHDL/
 │   ├── src/          # Módulos VHDL do processador pipeline
 │   └── work/         # Diretório de trabalho do ModelSim
 
-  
+```  
 ---
 
-</details> ```
 
 ## ✨ Destaques do Projeto
 

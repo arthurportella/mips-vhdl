@@ -30,7 +30,7 @@ MIPS-VHDL/
 │   ├── sim/          # Arquivos de simulação específicos do pipeline
 │   ├── src/          # Módulos VHDL do processador pipeline
 │   └── work/         # Diretório de trabalho do ModelSim
-
+</details> ```
   
 ---
 

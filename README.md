@@ -45,13 +45,6 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 
 ## 🔧 Funcionalidades Implementadas
 
-### 🟩 MIPS Monociclo
-
-- Conjunto básico de instruções: `ADD`, `SUB`, `AND`, `OR`, `LW`, `SW`, `BEQ`, etc.
-- Unidade de controle centralizada.
-- Banco de registradores de 32 bits.
-- Memória de instruções e dados separadas.
-
 ### 🟦 MIPS Pipeline
 
 - 5 estágios pipeline: IF, ID, EX, MEM, WB.

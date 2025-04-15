@@ -16,8 +16,6 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 
 ## 📁 Estrutura do Projeto
 
-📁 Estrutura do Projeto
-
 ```text
 MIPS-VHDL/
 ├── monociclo/        # Implementação do processador MIPS Monociclo

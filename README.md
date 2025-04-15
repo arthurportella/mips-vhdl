@@ -18,16 +18,7 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 
 📁 Estrutura do Projeto
 
-/MIPS-VHDL            # Diretório principal
-├── /monociclo        # Implementação do processador MIPS Monociclo
-│   ├── /asm          # Códigos em Assembly utilizados para simulações
-│   ├── /sim          # Arquivos de simulação específicos do monociclo
-│   └── /src          # Módulos VHDL do processador monociclo
-│
-├── /pipeline         # Implementação do processador MIPS com Pipeline
-│   ├── /sim          # Arquivos de simulação específicos do pipeline
-│   ├── /src          # Módulos VHDL do processador pipeline
-│   └── /work         # Diretório de trabalho do ModelSim
+MIPS-VHDL/ ├── monociclo/ # Implementação do processador MIPS Monociclo │ ├── asm/ # Códigos em Assembly utilizados para simulações │ ├── sim/ # Arquivos de simulação específicos do monociclo │ └── src/ # Módulos VHDL do processador monociclo │ ├── pipeline/ # Implementação do processador MIPS com Pipeline │ ├── sim/ # Arquivos de simulação específicos do pipeline │ ├── src/ # Módulos VHDL do processador pipeline │ └── work/ # Diretório de trabalho do ModelSim │ └── sim/ ├── testbenches/ # Testes gerais └── modelsim/ # Scripts de simulação
 
   
 ---

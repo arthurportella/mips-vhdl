@@ -16,7 +16,6 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 
 ## 📁 Estrutura do Projeto
 
-<details>
 📁 Estrutura do Projeto
 
 ```text

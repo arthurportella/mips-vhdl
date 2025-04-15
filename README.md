@@ -16,7 +16,7 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 
 ## 📁 Estrutura do Projeto
 
-📁 Estrutura do Projeto
+<details> <summary>📁 Estrutura do Projeto</summary>
 
 /MIPS-VHDL            # Diretório principal
 ├── /monociclo        # Implementação do processador MIPS Monociclo
@@ -28,7 +28,7 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 │   ├── /sim          # Arquivos de simulação específicos do pipeline
 │   ├── /src          # Módulos VHDL do processador pipeline
 │   └── /work         # Diretório de trabalho do ModelSim
-
+</details>
   
 ---
 

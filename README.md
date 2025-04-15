@@ -17,7 +17,7 @@ Este trabalho foi desenvolvido como parte da disciplina de **Arquitetura e Organ
 ## 📁 Estrutura do Projeto
 
 <details>
-<summary>📁 Estrutura do Projeto</summary>
+📁 Estrutura do Projeto
 
 ```text
 MIPS-VHDL/
